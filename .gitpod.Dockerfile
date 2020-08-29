@@ -6,4 +6,4 @@ ENV METAMAPPER_SECRET_KEY 'f+4j@p$=%+3h^*e0hhobo0g+0smb)v&1ypg$q7vdxgd9b3sj%4'
 
 FROM gitpod/workspace-postgres
 
-COPY --from=metamapper /bin/metamapper /bin/metamapper
+COPY --from=metamapper /usr/local/metamapper /usr/local/metamapper/
